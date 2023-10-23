@@ -1,0 +1,126 @@
+
+body{
+    background-image: url('im1.png');
+    background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	display: flex;
+	margin: 30px;
+	align-items: center;
+	padding: 20px;
+}
+.logo{
+	flex-basis: 50%;
+	padding: 10px;
+
+}
+.menu{
+	flex-basis: 50%;
+	padding: 20px;
+}
+.logo img{
+	width: 400px;
+	right: 0;
+	align-items: right;
+}
+
+.menu a{
+	padding: 20px;
+	text-decoration: none;
+	font-size: 20px;
+	font color: ; 
+	color: white;
+
+}
+.menu a:hover{
+	color: black;
+	background-color:yellow;	
+}
+.slide{
+	display: flex;
+	padding: 20px;
+}
+.slide h1{
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	text-align:center;
+	font-size: 60px;
+	font:bold;
+}
+.left-slide{
+	flex-basis: 50%;
+
+}
+.Right-slide img{
+    width: 120%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.left-slide h1{
+	font-size: 50px;
+	
+}
+.left-slide{
+	font-size: 28px;
+}
+.slide p{
+	color: white;
+	font-size: 26px;
+	margin: 20px;
+	font-family: serif;
+}
+.show a{
+	margin: 20px;
+	padding: 8px;
+	color: black;
+	text-decoration: none;
+	background-color: yellow;
+	font: bold;
+	align-items: center;
+}
+.row{
+	display: flex;
+}
+.pro1,.pro2,.pro3{
+	 flex-basis: 33%;
+	 background-color:black;
+	 margin: 30px;
+	 padding: 15px;
+	 text-align: center;
+	 color: white;
+}
+.pro1 img{
+     width: 15%;
+	 height: 50px;
+	 align-items: center;	
+}
+.pro2 img{
+	 width: 15%;
+	 height: 50px;
+	 align-items: center;
+}
+.pro3 img{
+	 width: 15%;
+	 height: 50px;
+	 align-items: center;
+}
+ .pro1 button{
+ 	background-color: yellow;
+ }
+ .pro2 button{
+ 	background-color: yellow;
+ }
+ .pro3 button{
+ 	background-color: yellow;
+ }
+.shy img{
+	margin: 20px;
+	padding: 9px;
+	align-items:center;
+	width: 20%;
+    height: 33%;
+}
